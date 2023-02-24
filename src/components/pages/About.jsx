@@ -1,0 +1,81 @@
+import React from 'react'
+import Social from '../elements/Social'
+import maevagilles from '../../assets/maevagilles.png'
+
+export default function about() {
+  return (
+
+                    <div class="lg:rounded-2xl ">
+
+                        <div class="pt-12 md:py-12 px-2 sm:px-5 md:px-10 lg:px-14">
+                          <div class="pt-12 md:py-12 px-2 sm:px-5 md:px-10 lg:px-14">
+                              <div class="lg:hidden">
+                                  <div class="w-full mb-6 lg:mb-0 mx-auto relative backdrop-blur-sm bg-white/50 text-center px-6 rounded-[20px] mt-[180px] md:mt-[220px] lg:mt-0">
+                                  <img src={maevagilles} class="shadow-lg shadow-gray-500 w-[240px] absolute left-[50%] transform -translate-x-[50%] h-[240px] drop-shadow-xl mx-auto rounded-[20px] -mt-[140px] bg-gradient-to-r from-[#d3ac94e9]  to-[#206c85e1] " alt="about avatar"></img> 
+                                      <div class="pt-[100px] pb-8">
+                                      <h2 class="mt-6 mb-1 text-[26px] font-bold"> Maëva GILLES </h2>
+                                          <h3 class="mb-4 text-[#000000] font-semibold inline-block px-5 py-1.5 rounded-lg dark:text-[#333333]">Développeuse web full stack junior</h3>
+
+                                           <Social />
+
+                                          <div class="p-7 rounded-2xl mt-7 bg-[#F3F6F6] dark:bg-[#1D1D1D]">
+                                              <div class="flex border-b border-[#E3E3E3] dark:border-[#3D3A3A] pb-2.5">
+                                                
+                                                  <span class="socialbtn bg-white dark:bg-black text-[#E93B81] shadow-md">
+                                                      <i class="fa-solid fa-mobile-screen-button"></i>
+                                                  </span>
+                                                  <div class="text-left ml-2.5">
+                                                      <p class="text-xs text-[#44566C] dark:text-[#A6A6A6]"> Phone </p>
+                                                      <p class="dark:text-white">+123 456 7890</p>
+                                                  </div>
+                                              </div>
+
+                                              <div class="flex border-b border-[#E3E3E3] dark:border-[#3D3A3A] py-2.5">
+                                                  <span class="socialbtn bg-white dark:bg-black text-[#6AB5B9] shadow-md">
+                                                      <i class="fa-solid fa-envelope-open-text"></i>
+                                                  </span>
+                                                  <div class="text-left ml-2.5">
+                                                      <p class="text-xs text-[#44566C] dark:text-[#A6A6A6]"> Email </p>
+                                                      <p class="dark:text-white">example@mail.com</p>
+                                                  </div>
+                                              </div>
+
+                                              <div class="flex border-b border-[#E3E3E3] dark:border-[#3D3A3A] py-2.5">
+                                                  <span class="socialbtn bg-white dark:bg-black text-[#FD7590] shadow-md">
+                                                      <i class="fa-solid fa-location-dot"></i>
+                                                  </span>
+                                                  <div class="text-left ml-2.5">
+                                                      <p class="text-xs text-[#44566C] dark:text-[#A6A6A6]"> Location </p>
+                                                      <p class="dark:text-white">Hong kong china</p>
+                                                  </div>
+                                              </div>
+
+                                              <div class="flex py-2.5">
+                                                  <span class="socialbtn bg-white dark:bg-black text-[#C17CEB] shadow-md">
+                                                      <i class="fa-solid fa-calendar-days"></i>
+                                                  </span>
+                                                  <div class="text-left ml-2.5">
+                                                      <p class="text-xs text-[#44566C] dark:text-[#A6A6A6]"> Birthday </p>
+                                                      <p class="dark:text-white">May 27, 1990</p>
+                                                  </div>
+                                              </div>
+                                          </div>
+                          
+                                          
+                                      </div>
+                                  </div>
+                              </div>
+                     
+
+                              
+                             
+
+                          </div>
+                          
+                    </div>
+                </div>
+
+
+
+                )
+}
